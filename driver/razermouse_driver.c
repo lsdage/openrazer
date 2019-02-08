@@ -2145,8 +2145,6 @@ static int razer_mouse_probe(struct hid_device *hdev, const struct hid_device_id
         goto exit;
     }
 
-    razer_mouse_init(dev, intf, hdev);
-
     // Init data
     razer_mouse_init(dev, intf, hdev);
 
